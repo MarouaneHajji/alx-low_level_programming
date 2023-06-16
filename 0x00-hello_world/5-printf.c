@@ -1,18 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Prints "with proper grammar, but the outcome is
+ *                a piece of art," followed by a new line.
  *
- * Description: using sizeof to print the size of various types.
- *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
-int main (void)
-{ 
-	printf("size of a char: %u byte(s)\n", sizeof(char));
-	printf("size of an int: %u byte(s)\n", sizeof(int));
-	printf("size of long int: %u byte(s)\n",sizeof(long int));
-	printf("size of a long long int: %u\n", sizeof(long long int));
-	printf("size of a float: %u byte(s)\n", sizeof(float));
+int main(void)
+{
+	printf("with proper grammar, but the outcome is a piece of art,\n");
+
 	return (0);
-}
+}}
